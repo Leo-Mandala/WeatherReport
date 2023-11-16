@@ -10,14 +10,14 @@
       <h2 ref="cityNameResult" class="city">New York</h2>
       <div class="details">
         <div class="col">
-          <img src="src/assets/droplet.png" class="cond-icon" />
+          <img src="./src/assets/droplet.png" class="cond-icon" />
           <div>
             <p ref="humy" class="humidity">%</p>
             <p>Humidity</p>
           </div>
         </div>
         <div class="col">
-          <img src="src/assets/wind.png" class="cond-icon" />
+          <img src="./src/assets/wind.png" class="cond-icon" />
           <div>
             <p ref="nreaker" class="wind">50Km/H</p>
             <p>wind</p>
