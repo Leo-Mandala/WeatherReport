@@ -10,7 +10,7 @@
       <h2 ref="cityNameResult" class="city">New York</h2>
       <div class="details">
         <div class="col">
-          <img src="./src/assets/droplet.png" class="cond-icon" />
+          <img src="./src/assets=/droplet.png" class="cond-icon" />
           <div>
             <p ref="humy" class="humidity">%</p>
             <p>Humidity</p>
