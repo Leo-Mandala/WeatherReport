@@ -10,14 +10,14 @@
       <h2 ref="cityNameResult" class="city">New York</h2>
       <div class="details">
         <div class="col">
-          <img src="./src/assets/droplet.png" class="cond-icon" />
+          <img src="../assets/droplet.png" class="cond-icon" />
           <div>
             <p ref="humy" class="humidity">%</p>
             <p>Humidity</p>
           </div>
         </div>
         <div class="col">
-          <img src="./src/assets/wind.png" class="cond-icon" />
+          <img src="../assets/wind.png" class="cond-icon" />
           <div>
             <p ref="nreaker" class="wind">50Km/H</p>
             <p>wind</p>
@@ -36,7 +36,7 @@ export default {
   data() {
     return {
       cityName: '',
-      weatherIcon: "./src/components/icons/clouds.png",
+      weatherIcon: "./src/assets/clouds.png",
     };
   },
   mounted() {
@@ -53,17 +53,17 @@ export default {
     this.$refs.nreaker.innerHTML = data.wind.speed + "km/h";
 
     if (data.weather[0].main === "Clouds") {
-      this.weatherIcon = "./src/assets/clouds.png";
+      this.weatherIcon = "/src/assets/clouds.png";
     } else if (data.weather[0].main === "Clear") {
-      this.weatherIcon = "./src/assets/sun.png";
+      this.weatherIcon = "../src/assets/sun.png";
     } else if (data.weather[0].main === "Rain") {
       this.weatherIcon = "./src/assets/rain.png";
     } else if (data.weather[0].main === "Snow") {
       this.weatherIcon = "./src/assets/snow.png";
     } else if (data.weather[0].main === "Thunderstorm") {
-      this.weatherIcon = "./src/assets/thunderstorm.png";
+      this.weatherIcon = "../assets/thunderstorm.png";
     } else if (data.weather[0].main === "Drizzle") {
-      this.weatherIcon = "./src/assets/drizzle.png";
+      this.weatherIcon = "/assets/drizzle.png";
     } else {
       this.weatherIcon = "./src/assets/default.png";
     }
