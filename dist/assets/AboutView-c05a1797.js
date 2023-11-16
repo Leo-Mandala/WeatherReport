@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as s}from"./index-599a48b9.js";import"src/assets/droplet.png";import"src/assets/wind.png";const _={},c={class:"about"},a=s("h1",null,"This is an about page",-1),n=[a];function i(r,u){return t(),o("div",c,n)}const f=e(_,[["render",i]]);export{f as default};
